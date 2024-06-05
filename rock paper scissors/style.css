@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 2rem;
+    color: whitesmoke;
+    text-align: center;
+    background-color: #191917;
+    padding: 10px;
+}
+
+body{
+    background-color: wheat;
+    font-family: 'Roboto', sans-serif;
+}
+
+.game{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #000;
+    border-radius: 20px;
+}
+
+.result{
+    display: flex;
+    gap:25px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0px;
+    margin-top: 150px;
+    margin-bottom: 10px;    
+}
+.user-score{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #191917;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.computer-score{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #191917;
+    padding: 0.5rem;
+    border-radius: 10px;
+    margin-left: 10px;
+}
+.result-text{
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: aliceblue;
+    background-color: #191917;
+    padding: 0.5rem;
+    border-radius: 10px;
+    align-items: center;
+    text-align: center;
+    width:225px;
+    justify-content: center;
+    margin-left: 500px;
+    margin-top: 40px;
+
+
+}
